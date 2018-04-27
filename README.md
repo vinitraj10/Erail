@@ -35,7 +35,7 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-<p>Django commands</p>
+Django commands
 
 ```
 python manage.py makemigrations
@@ -53,7 +53,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-<p>Go to admin panel to add data</p>
+Go to admin panel to add data
 ```
 http://localhost:8000/admin
 ```
