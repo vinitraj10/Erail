@@ -1,0 +1,106 @@
+body{
+  font-family: 'Nunito', sans-serif;
+}
+.img-logo{
+  padding:10px;
+}
+.navbar{
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  background-color: #fff;
+}
+.content{
+  padding-top: 60px;
+
+}
+.form-button{
+  padding-top:10px;
+}
+.panel{
+  margin-left: 40px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-pad{
+  margin-top: 30px;
+}
+.time{
+  padding: 20px;
+  margin: 20px;
+}
+.logo{
+  margin-top: 10px;
+  font-family: 'Pacifico', cursive;
+}
+
+/* Colors */
+/* Page */
+
+.con{
+  margin-top:30px;
+}
+hr {
+  width: 100%;
+  margin: 1.5em 0;
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+}
+.hr--invisible {
+  border-bottom-color: transparent;
+}
+/* Boarding Pass */
+.boardingPass {
+  width: 400px;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, .3);
+  color:#fff;
+  border-radius: 4px;
+}
+/* Section */
+/** Label **/
+.section-label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #919191;
+}
+/** Icon **/
+.boardingPass-icon {
+  flex-grow: 0.5;
+  color: #f03f55;
+}
+/* Header */
+
+.boardingPass-airline {
+  margin: 0;
+  font-style: italic;
+}
+/* Main */
+.boardingPass-main {
+  padding: 2em;
+  background: linear-gradient(60deg, #12131c, #383f5c);
+}
+.boardingPass-departur-IATA, .boardingPass-arrival-IATA {
+  display: inline-block;
+  line-height: 1;
+  font-size: 4rem;
+}
+.boardingPass-transport {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boardingPass-transport-icon {
+  color: #919191;
+  font-size: 49px;
+}
+/* Footer */
+.boardingPass-footer {
+  padding: 0 2em 2em;
+  background: #fff;
+  border-radius: inherit;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.boardingPass-qrCode {
+  height: 40px;
+  width: 100%;
+  background: repeating-linear-gradient(to right, #222, #222 2%, transparent 2%, transparent 3%, #222 3%, #222 4%, transparent 4%, transparent 6%, #222 6%, #222 7%, transparent 7%, transparent 8%, #222 8%, #222 10%, transparent 10%, transparent 11%);
+}
