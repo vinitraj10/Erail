@@ -7,12 +7,12 @@ export default function(ComposedComponent){
 		componentWillMount() {
 			const {authenticated} = this.props;
 			if(!authenticated){
-				this.props.history.push('/');
+				this.props.history.push('/signin');
 			}
 		}
 		componentWillReceiveProps(nextProps) {
 			if(!nextProps.authenticated){
-				this.props.history.push('/')
+				this.props.history.push('/signin')
 			}
 		}
 		render(){

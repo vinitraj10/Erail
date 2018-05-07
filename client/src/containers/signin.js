@@ -8,7 +8,7 @@ import {signin} from '../actions';
 class Signin extends Component {
   formSubmit(formValue){
 		this.props.signin(formValue,()=>{
-      this.props.history.push('/booking');
+      this.props.history.push('/');
     });
 	}
   render(){

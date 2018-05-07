@@ -15,7 +15,7 @@ import {
 
 import {tokenHeader} from '../utils/headers';
 
-const rootUrl = 'http://localhost:8000/'
+const rootUrl = 'http://127.0.0.1:8000/'
 
 export function signin(data,callback){
   const url =`${rootUrl}auth/signin/`
@@ -25,6 +25,7 @@ export function signin(data,callback){
     .then((response)=>{
 			const {user}=response.data;
 			dispatch({type:AUTH_USER});
+			console.log("function called");
 			localStorage.setItem('token',response.data.token);
 			localStorage.setItem('username',user);
 			callback();

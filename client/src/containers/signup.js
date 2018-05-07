@@ -9,7 +9,7 @@ class Signup extends Component {
   formSubmit(formValue){
     console.log(formValue);
     this.props.signup(formValue,()=>{
-      this.props.history.push('/booking');
+      this.props.history.push('/');
     })
   }
   render(){

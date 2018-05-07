@@ -26,11 +26,14 @@
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^4.0.8",
+    "react-router-transition": "^1.2.1",
+    "react-transition-group": "^2.3.1",
     "redux": "^3.7.2",
     "redux-form": "^7.3.0",
     "redux-thunk": "^2.2.0",
     "spectre.css": "^0.5.1",
-    "svg-inline-loader": "^0.8.0"
+    "svg-inline-loader": "^0.8.0",
+    "velocity-react": "^1.4.1"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",

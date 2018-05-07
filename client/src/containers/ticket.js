@@ -10,7 +10,7 @@ class Ticket extends Component {
     formValue['seatclass']=this.props.class.seatClass;
     formValue['doj']=this.props.match.params.doj;
     this.props.submitTicket(formValue,this.props.match.params.id,()=>{
-      this.props.history.push('/booking');
+      this.props.history.push('/');
     });
   }
   render(){

@@ -62,9 +62,7 @@ class Nav extends Component {
       <div>
         <div className="panel-header">
           <div className="panel-title text-center">
-            <button className="btn btn-default btn-lg">
-              {fetching?(<Loading/>):(fetched?(<div>Available - {this.renderSeats()}</div>):(<div></div>))}
-            </button>
+            {fetching?(<button className="btn btn-block btn-lg loading"></button>):(fetched?(<button className="btn btn-block btn-lg">Available - {this.renderSeats()}</button>):(<div></div>))}
           </div>
         </div>
         <div className="panel-nav">

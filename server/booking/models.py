@@ -3,8 +3,8 @@ from django.db import models
 from django.conf import settings
 
 class Stations(models.Model):
-    name = models.CharField(max_length=20)
-    stn_code = models.CharField(max_length=4)
+    name = models.CharField(max_length=40)
+    stn_code = models.CharField(max_length=10)
 
     class Meta:
         verbose_name_plural = 'Stations'

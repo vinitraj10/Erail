@@ -23,7 +23,7 @@ if(token){
 render(
 	<Provider store={store}>
 		<Router>
-			<Header/>
+				<Header/>
 		</Router>
 	</Provider>
 	,document.getElementById('root'));

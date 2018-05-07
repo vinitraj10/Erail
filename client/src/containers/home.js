@@ -1,22 +1,19 @@
 import React,{Component} from 'react';
+import {connect} from 'react-redux';
 import Signin from './signin.js';
 import Signup from './signup.js';
-import {connect} from 'react-redux';
+import Error from '../components/error';
 
 class Home extends Component {
   renderError(auth){
     if(auth.loginError){
       return (
-        <div className="toast toast-error text-center">
-          {auth.loginError}
-        </div>
+        <Error error={auth.loginError}/>
       );
     }
     if(auth.signupError){
       return(
-        <div className="toast toast-error text-center">
-          {auth.signupError}
-        </div>
+        <Error error={auth.signupError}/>
       )
     }
   }
