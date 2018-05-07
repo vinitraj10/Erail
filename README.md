@@ -35,14 +35,13 @@ Installing dependencies
 pip install -r requirements.txt
 ```
 Database Setup:- The project uses oracle 11g database so make sure to give the credtinals of database in .env file,the file should be created under the server directory and it should look like this
-'''
+```
 DB_NAME=YOUR_DB_NAME
 DB_USER=USERNAME
 DB_PASSWORD=PASSWORD
 DB_HOST=localhost
 DB_PORT=1521
-
-'''
+```
 
 Django commands
 
