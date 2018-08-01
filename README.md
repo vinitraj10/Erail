@@ -1,5 +1,5 @@
 # Erail
-
+A railway reservation application built in React and Django
 ## Client Setup
 You first need to install Node-Js in your system so that you can use npm
 ```
